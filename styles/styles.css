@@ -1,3 +1,9 @@
+:root {
+    --primary-color: lightgray;
+    --basic-fount: monospace;
+
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -11,6 +17,7 @@ nav a {
 
 h1 {
     color: darkblue;
+    font-style: var(--basic-fount);
 }
 
 img {
@@ -61,4 +68,6 @@ footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
+    font-style: var(--basic-fount);
+    background-color: var(--primary-color);
 }
