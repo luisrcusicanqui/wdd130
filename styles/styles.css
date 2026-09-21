@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: lightgray;
     --basic-fount: monospace;
@@ -37,13 +43,17 @@ main {
 }
 
 aside {
+    position: relative;
     width: 60%;
-    margin: 20px;
-    border: 8px;
-    padding: 3px;
-    background-color: lightgreen;
-    color: black;
+    text-align: center;
 
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 125px;
+    color: #000;
 }
 
 aside img {
@@ -53,6 +63,7 @@ aside img {
 }
 
 main img {
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -70,4 +81,14 @@ footer {
     text-align: center;
     font-style: var(--basic-fount);
     background-color: var(--primary-color);
+}
+
+/* css class selectors */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #c5c5c5;
+    color: #1794d7;
 }
