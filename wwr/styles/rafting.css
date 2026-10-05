@@ -224,12 +224,6 @@ footer {
     border: none;
 }
 
-.contact-section {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: start;
-}
-
 .contact-form {
     background-color: var(--backgroumd-color);
     padding: 1rem;
