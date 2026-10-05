@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name="coustomer's information" content=" page used for get coustomer information ">
+    <meta name="author" content="Luis Rodrigo Cusicanqui">
+    <title> About Us | Rafting Company</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body class="grid">
+    <header>
+        <img src="images/logo-about.jpeg" alt="logo about us">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="company-info">
+            <h2>Rafting Company</h2>
+            <p><strong>address:</strong> 123 false Street, dog, santa cruz</p>
+            <p><strong>Phone:</strong> +590 68844516</p>
+            <p><strong>Email:</strong> luisrodricupe@gmail.com</p>
+        </section>
+
+        <section class="contact-section">
+            <div class="map-container">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d671.5790983261468!2d-63.18176624492809!3d-17.790518554846415!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sbo!4v1791157086221!5m2!1ses!2sbo"
+                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>
+
+
+            <form class="contact-form" action="#" method="post">
+                <h2>Contact Us</h2>
+
+                <label for="fullname">Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="example@correo.com"
+                  required>
+
+                <fieldset>
+                    <legend>Message Purpose:</legend>
+                    <label><input type="radio" name="purpose" value="general" checked> General
+                        Inquiry</label>
+                    <label><input type="radio" name="purpose" value="booking"> Reservation
+                        Question</label>
+                    <label><input type="radio" name="purpose" value="suggestion"> Website
+                        Suggestion</label>
+                </fieldset>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type Here"
+                  required></textarea>
+
+                <div class="checkbox-group">
+                    <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                </div>
+
+                <button type="submit">send</button>
+            </form>
+        </section>
+
+        <section>
+            <div class="agents">
+                <h2>WE Are Here To Serve You </h2>
+            </div>
+            <div class="agents-gallery">
+
+                <figure>
+                    <img src="images/wk01.jpg" alt="worker 1">
+                    <figcaption>logistics</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/wk02.jpg" alt="worker 2">
+                    <figcaption>Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/wk03.jpg" alt="worker 3">
+                    <figcaption>instructor</figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>©2026 | Fast & wet | Luis Cusicanqui</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.png" alt="Facebook Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.png" alt="Instagram Icon">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="images/youtube.png" alt="Youtube Icon">
+            </a>
+        </nav>
+
+    </footer>
+
+</body>
+
+</html>
